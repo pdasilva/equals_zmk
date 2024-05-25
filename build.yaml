@@ -1,0 +1,10 @@
+---
+include:
+  - board: nice_nano_v2
+    shield: equals60
+  
+# ---
+# include:
+#   - board: boardsource_equals
+#     cmake-args: -DDTS_EXTRA_CPPFLAGS=-DEQUALS60=1
+    # Uncomment above for the Equals60

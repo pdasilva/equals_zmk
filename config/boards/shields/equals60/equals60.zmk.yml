@@ -1,0 +1,9 @@
+file_format: "1"
+id: equals60
+name: equals60
+type: shield
+url: https://github.com/pdasilva/equals-zmk
+requires:
+  - pro_micro
+features:
+  - keys
