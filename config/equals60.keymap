@@ -71,14 +71,14 @@
             >;
         };
 
-        sym_layer {
-            label = "Sym";
+        adjust_layer {
+            label = "adjust";
             bindings = <
-&trans  &trans     &trans    &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LBRC   &kp AMPS  &kp STAR   &kp LPAR   &kp RBRC  &trans  &trans  &trans  &trans  &trans  &bootloader
-&trans  &kp COLON  &kp DLLR  &kp PRCNT  &kp CARET  &kp PLUS  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp TILDE  &kp EXCL  &kp AT     &kp HASH   &kp PIPE  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans    &kp RPAR   &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6    &kp F7     &kp F8        &kp F9     &kp F10  &bootloader
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans        &trans     &trans   &bootloader
+&trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN   &kp UP_ARROW  &kp RIGHT  &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp HOME  &kp PG_DN  &kp PG_UP     &kp END    &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans        &trans     &trans   &trans
             >;
         };
 
